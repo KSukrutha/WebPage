@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-size:cover;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+div{
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 0.568);
+   width:30%;
+   height:85%;
+   margin:150px 260px;
+   align-items: center;
+   text-align: center;
+   border-radius: 8px;
+}
+div h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    padding-top:12px;
+
+}
+div input{
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    padding:0px 5px;
+    align-content: center;
+    margin: 10px 20px;
+    text-align: left;
+}
+div hr{
+ margin: 0px 10px;
+}
+#bt1{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    margin: 10px auto;
+    padding: 5px 30px ; 
+}
+div a{
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+    font-size: 12px;
+    display: block;
+    padding: 5px 0px;
+}
+#bt2{
+    display: inline-block;
+    background-color:#f52f63;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: white;
+    color: white;
+    margin-bottom:10px;
+    padding: 5px 40px; 
+
+}
